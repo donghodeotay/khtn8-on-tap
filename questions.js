@@ -77,9 +77,9 @@ window.QUESTIONS = [
  options:["Quỳ tím sau đó BaCl₂","Đường","Nước cất","Muối ăn"], correct:0,
  explanation:"Bước 1: quỳ tím — NaOH hóa xanh, H₂SO₄ và HCl hóa đỏ. Bước 2: nhỏ BaCl₂ vào 2 acid — H₂SO₄ tạo kết tủa trắng BaSO₄↓, HCl không có hiện tượng."},
 
-{subject:"hoa", q:"Hòa tan CaCO₃ vào 200g HCl 7,3% vừa đủ. Khối lượng CaCO₃ phản ứng là (M_CaCO₃=100, M_HCl=36,5):",
- options:["10 g","20 g","30 g","50 g"], correct:1,
- explanation:"m_HCl = 7,3% × 200 = 14,6 g → n_HCl = 14,6/36,5 = 0,4 mol. PT: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. n_CaCO₃ = n_HCl/2 = 0,2 mol → m = 0,2 × 100 = 20 g."},
+{subject:"hoa", q:"Bài 5) Hòa tan CaCO₃ vào 200g HCl 7,3% vừa đủ. Tính nồng độ phần trăm (C%) của muối CaCl₂ trong dung dịch sau phản ứng. (M_CaCO₃=100, M_HCl=36,5, M_CaCl₂=111, M_CO₂=44)",
+ options:["10,51%","11,1%","20%","22,2%"], correct:0,
+ explanation:"Bước 1: n_HCl = (7,3%×200)/36,5 = 0,4 mol. Bước 2: PT CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. n_CaCO₃ = 0,2 mol → m_CaCO₃ = 20g; n_CaCl₂ = 0,2 mol → m_CaCl₂ = 0,2×111 = 22,2g; n_CO₂ = 0,2 mol → m_CO₂ = 0,2×44 = 8,8g (thoát ra). Bước 3: m_dd_sau = m_CaCO₃ + m_dd_HCl − m_CO₂ = 20+200−8,8 = 211,2g. Vậy C%(CaCl₂) = 22,2/211,2 × 100% ≈ 10,51%."},
 
 {subject:"hoa", q:"Phân đạm cung cấp nguyên tố nào cho cây trồng?",
  options:["N (Nitrogen)","P (Phosphorus)","K (Potassium)","Ca (Calcium)"], correct:0,
@@ -292,9 +292,92 @@ window.QUESTIONS = [
  options:["Quỳ tím","Dung dịch H₂SO₄","Nước","Đường"], correct:1,
  explanation:"Dùng H₂SO₄: Ba(OH)₂ → kết tủa trắng BaSO₄ + nước (vừa trung hòa vừa kết tủa). NaOH → trung hòa, không kết tủa, dùng quỳ tím sau để xác nhận. Na₂SO₄ → không phản ứng. NaCl → không phản ứng. Hoặc dùng quỳ tím trước (chia 2 nhóm: base xanh = Ba(OH)₂, NaOH; trung tính = NaCl, Na₂SO₄), sau đó dùng H₂SO₄ tách từng cặp."},
 
-{subject:"hoa", q:"Trung hòa 200 mL dung dịch H₂SO₄ 1M cần bao nhiêu mol NaOH? (Trợ giúp: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O)",
- options:["0,1 mol","0,2 mol","0,4 mol","1,0 mol"], correct:2,
- explanation:"n_H₂SO₄ = 0,2 L × 1 M = 0,2 mol. Theo PT: cần 2 mol NaOH cho 1 mol H₂SO₄ → cần 2 × 0,2 = 0,4 mol NaOH. Khối lượng NaOH = 0,4 × 40 = 16 g."}
+{subject:"hoa", q:"Bài 6a) Trung hòa 200 mL dung dịch H₂SO₄ 1M bằng dung dịch NaOH 20%. Khối lượng muối Na₂SO₄ tạo thành là (M_Na₂SO₄ = 142):",
+ options:["14,2 g","28,4 g","56,8 g","142 g"], correct:1,
+ explanation:"PT: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. n_H₂SO₄ = 0,2 L × 1 M = 0,2 mol → n_Na₂SO₄ = 0,2 mol (theo tỉ lệ 1:1). Khối lượng muối: m = n × M = 0,2 × 142 = 28,4 g."},
 
+{subject:"hoa", q:"Bài 6b) Khối lượng dung dịch NaOH 20% cần dùng để trung hòa 200 mL H₂SO₄ 1M là (M_NaOH = 40):",
+ options:["16 g","20 g","40 g","80 g"], correct:3,
+ explanation:"n_H₂SO₄ = 0,2 mol → n_NaOH cần = 2 × 0,2 = 0,4 mol → m_NaOH (chất tan) = 0,4 × 40 = 16 g. Vì dung dịch NaOH có nồng độ 20%, khối lượng dung dịch = m_chất tan / C% = 16 / 0,20 = 80 g."},
+
+{subject:"hoa", q:"Tên gọi của muối Ca₃(PO₄)₂ là:",
+ options:["Calcium hidrophotphat","Calcium phosphate","Calcium nitrate","Calcium photphit"], correct:1,
+ explanation:"Ca₃(PO₄)₂ chứa gốc PO₄ → muối phosphate. Tên: Calcium phosphate / Tricalcium phosphate. Đây là thành phần chính của apatit và xương."},
+
+{subject:"hoa", q:"Tên gọi của muối NaH₂PO₄ là:",
+ options:["Natri photphat","Natri hidrophotphat (Na₂HPO₄)","Natri đihidrophotphat (muối acid)","Natri sulfate"], correct:2,
+ explanation:"NaH₂PO₄ — vẫn còn 2H trong gốc PO₄ → 'natri ĐIhidrophotphat' / Sodium dihydrogen phosphate. Phân biệt: Na₂HPO₄ = natri hidrophotphat (1H); NaH₂PO₄ = natri đihidrophotphat (2H); Na₃PO₄ = natri photphat (0H)."},
+
+{subject:"hoa", q:"Phân loại nào sau đây là ĐÚNG?",
+ options:["HCl là oxide acid","NaOH là acid","CO₂ là oxide acid","NaCl là base"], correct:2,
+ explanation:"HCl = acid (H + gốc Cl). NaOH = base (kim loại + OH). CO₂ = oxide acid (oxide tương ứng acid H₂CO₃). NaCl = muối (kim loại + gốc acid)."},
+
+{subject:"hoa", q:"Cân bằng phương trình: P₂O₅ + ___KOH → 2K₃PO₄ + 3H₂O. Hệ số trước KOH là:",
+ options:["3","4","6","8"], correct:2,
+ explanation:"P₂O₅ + 6KOH → 2K₃PO₄ + 3H₂O. Đếm: P (2=2 ✓), K (6=6 ✓), H (6=6 ✓), O (5+6=11=8+3=11 ✓). Đây là phản ứng giữa oxide acid + base → muối + nước."},
+
+{subject:"hoa", q:"Trong chuỗi: Na₂SO₃ → NaCl, chất tham gia phản ứng là:",
+ options:["NaOH","HCl","H₂O","O₂"], correct:1,
+ explanation:"Na₂SO₃ + 2HCl → 2NaCl + H₂O + SO₂↑. Đây là phản ứng giữa muối + acid mạnh → muối mới + nước + khí. Acid mạnh đẩy SO₂ ra khỏi muối Na₂SO₃."},
+
+{subject:"hoa", q:"Trong chuỗi: Fe → FeCl₂, chất tham gia là:",
+ options:["HCl","H₂SO₄ đặc","NaOH","Cl₂ ở nhiệt độ cao"], correct:0,
+ explanation:"Fe + 2HCl → FeCl₂ + H₂↑. Đây là phản ứng kim loại + acid → muối sắt (II) + khí H₂. Lưu ý: nếu dùng Cl₂ ở t° cao thì tạo FeCl₃ (sắt III), không phải FeCl₂."},
+
+{subject:"hoa", q:"Cho oxide base CaO vào nước, sản phẩm tạo thành là:",
+ options:["Ca(OH)₂ — base tan","CaCO₃ kết tủa","CaCl₂","CaO không phản ứng"], correct:0,
+ explanation:"CaO + H₂O → Ca(OH)₂ (vôi tôi). Phản ứng tỏa nhiệt mạnh. Ca(OH)₂ tan ít trong nước tạo dung dịch base làm quỳ tím hóa xanh."},
+
+{subject:"hoa", q:"Cho oxide acid SO₂ tan trong nước, sản phẩm là:",
+ options:["S","SO₃","H₂SO₃ (acid sulfurơ)","Na₂SO₃"], correct:2,
+ explanation:"SO₂ + H₂O ⇌ H₂SO₃ (acid sulfurơ — yếu). Acid này làm quỳ tím hóa đỏ. Đây là cách giải thích vì sao mưa axit (SO₂ trong không khí) gây hại."},
+
+{subject:"hoa", q:"Phân lân cung cấp nguyên tố nào cho cây?",
+ options:["N","P","K","Ca"], correct:1,
+ explanation:"Phân lân (superphosphate Ca(H₂PO₄)₂, lân nung chảy…) cung cấp P. P giúp bộ rễ phát triển, ra hoa và kết quả."},
+
+{subject:"hoa", q:"Phân kali cung cấp nguyên tố nào?",
+ options:["Na","K","Ca","Fe"], correct:1,
+ explanation:"Phân kali (KCl, K₂SO₄) cung cấp K. K tăng sức chống bệnh, chống đổ ngã, tăng phẩm chất nông sản."},
+
+{subject:"hoa", q:"Phân NPK là phân hỗn hợp chứa:",
+ options:["Chỉ N","Chỉ K","Cả 3 nguyên tố N, P, K","Phân vi lượng"], correct:2,
+ explanation:"NPK chứa cả 3 nguyên tố chính: Nitrogen (N), Phosphorus (P), Potassium (K). Tỉ lệ NPK ghi trên bao bì cho biết hàm lượng (ví dụ NPK 16-16-8)."},
+
+{subject:"ly", q:"Lực đẩy Archimedes F_A tác dụng lên vật nhúng trong chất lỏng được tính bằng công thức:",
+ options:["F_A = d × V","F_A = m × g","F_A = P × S","F_A = U × I"], correct:0,
+ explanation:"Định luật Archimedes: F_A = d × V, trong đó d = trọng lượng riêng của chất lỏng (N/m³), V = thể tích phần vật chìm trong chất lỏng (m³). Đơn vị F_A là Newton (N)."},
+
+{subject:"ly", q:"Để đo hiệu điện thế giữa hai đầu một bóng đèn, vôn kế phải mắc:",
+ options:["Nối tiếp với đèn","Song song với đèn","Bất kỳ vị trí nào","Không cần mắc"], correct:1,
+ explanation:"Vôn kế có điện trở RẤT LỚN, phải mắc SONG SONG với đoạn mạch (bóng đèn) cần đo HĐT. Lưu ý phân biệt: Ampe kế (đo I) — mắc nối tiếp; Vôn kế (đo U) — mắc song song."},
+
+{subject:"ly", q:"Đèn LED, đèn huỳnh quang hoạt động dựa trên tác dụng nào của dòng điện?",
+ options:["Tác dụng nhiệt","Tác dụng phát sáng","Tác dụng từ","Tác dụng hóa học"], correct:1,
+ explanation:"Đèn LED, huỳnh quang, neon… sử dụng tác dụng phát sáng của dòng điện (chuyển điện năng → quang năng). Khác với đèn dây tóc dùng tác dụng nhiệt (làm dây tóc nóng phát sáng)."},
+
+{subject:"ly", q:"Nam châm điện, chuông điện, động cơ điện hoạt động dựa trên tác dụng nào của dòng điện?",
+ options:["Tác dụng nhiệt","Tác dụng phát sáng","Tác dụng từ","Tác dụng sinh lý"], correct:2,
+ explanation:"Khi dòng điện chạy qua dây dẫn quấn quanh lõi sắt, lõi sắt trở thành nam châm — đây là TÁC DỤNG TỪ. Ứng dụng: nam châm điện, chuông điện, động cơ điện, loa, micro…"},
+
+{subject:"ly", q:"Khi dòng điện qua cơ thể người gây co giật, tê, có thể gây tử vong. Đó là tác dụng nào?",
+ options:["Tác dụng nhiệt","Tác dụng từ","Tác dụng sinh lý","Tác dụng phát sáng"], correct:2,
+ explanation:"Tác dụng SINH LÝ của dòng điện làm cơ co giật, tim đập rối loạn. Trong y học, ứng dụng có ích: máy kích tim (defibrillator) khi tim ngừng đập. Cảnh báo: dòng điện mạnh rất nguy hiểm tính mạng."},
+
+{subject:"ly", q:"Trong sơ đồ mạch điện, kí hiệu —|⏐— biểu thị:",
+ options:["Bóng đèn","Pin (nguồn điện một chiều)","Công tắc đóng","Ampe kế"], correct:1,
+ explanation:"Hai vạch dài–ngắn song song —|⏐— là kí hiệu PIN (nguồn điện DC). Vạch dài = cực dương (+), vạch ngắn = cực âm (–). Bóng đèn vẽ là vòng tròn có chữ X bên trong; ampe kế là vòng tròn có A; vôn kế có V."},
+
+{subject:"sinh", q:"Tử cung ở nữ có chức năng:",
+ options:["Sản xuất trứng","Nơi phôi làm tổ và phát triển thành thai","Vận chuyển tinh trùng","Tiết hormone testosterone"], correct:1,
+ explanation:"Tử cung là nơi phôi (sau khi được thụ tinh và di chuyển từ ống dẫn trứng) làm tổ vào niêm mạc và phát triển thành thai trong ~9 tháng. Trứng được sản xuất ở buồng trứng; thụ tinh xảy ra ở ống dẫn trứng."},
+
+{subject:"sinh", q:"Loài ưu thế trong quần xã là loài:",
+ options:["Có số lượng cá thể nhiều, vai trò lớn quyết định chiều hướng phát triển của quần xã","Số lượng ít","Chỉ sống ở một quần xã duy nhất","Đã tuyệt chủng"], correct:0,
+ explanation:"Loài ưu thế là loài có số lượng nhiều, sinh khối lớn, có vai trò quan trọng. Ví dụ: cây lúa trong quần xã ruộng lúa; cây thông trong rừng thông. Phân biệt với loài đặc trưng (chỉ có hoặc nhiều hơn ở một quần xã nhất định)."},
+
+{subject:"sinh", q:"Hệ sinh thái nào sau đây là hệ sinh thái TRÊN CẠN?",
+ options:["Ao hồ","Sông suối","Rừng nhiệt đới, sa mạc, đồng cỏ","Biển sâu"], correct:2,
+ explanation:"Phân loại các kiểu hệ sinh thái: TRÊN CẠN = rừng (nhiệt đới, ôn đới), thảo nguyên, sa mạc, đồng cỏ; NƯỚC NGỌT = ao, hồ, sông; NƯỚC MẶN = biển. Ngoài ra còn hệ sinh thái nhân tạo (ruộng lúa, hồ nuôi cá)."}
 
 ];
